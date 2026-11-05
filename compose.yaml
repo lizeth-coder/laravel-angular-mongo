@@ -10,8 +10,8 @@ services:
     ports:
       - "8000:8000"
     environment:
-      MONGODB_URI: "mongodb://devroot:devpass@mongo:27017/laravel_app?authSource=admin"
-      MONGODB_DATABASE: "laravel_app"
+      MONGODB_URI: "mongodb://devroot:devpass@mongo:27017/biblioteca?authSource=admin"
+      MONGODB_DATABASE: "biblioteca"
     depends_on:
       - mongo
     command:
